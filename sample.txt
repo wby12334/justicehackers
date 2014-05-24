@@ -27,7 +27,6 @@ Should I be here alone?
 Is Bernie and/or
 Julie going to be here, too?
 All bills are to be paid in full.
-Ifthere is no fee to be paid, return the bill and put n/a in the total due part.
-In baseball, bunting is a kind of hit.
+Ifthere is no fee to be paid, return the bill and put n/a in the total due part.In baseball, bunting is a kind of hit.
 But, bunting alsorefer to a kind of bird and the stuff that is used inflags.
 English sure is a strange language.
