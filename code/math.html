@@ -1,0 +1,27 @@
+<html>
+	<head>
+            	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>编程语言学习第一课</title>
+		<script>
+			function add() {
+				var add1 = document.getElementById('a').value;
+				var add2 = document.getElementById('b').value;
+				var sum  =  parseInt(add1) + parseInt(add2);
+				document.getElementById('c').value = sum;
+			}
+			function minus() {
+				var add1 = document.getElementById('a').value;
+				var add2 = document.getElementById('b').value;
+				var sum  =  parseInt(add1) - parseInt(add2);
+				document.getElementById('c').value = sum;
+			}
+		</script>
+	</head>
+	<body>
+		<input id="a" type="text"/>
+		<span>-</span>
+		<input id="b" type="text"/>
+		<button onclick="return minus();">=</button>
+		<input id="c"/>
+	</body>
+</html>
