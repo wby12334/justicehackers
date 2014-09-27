@@ -10,18 +10,47 @@
 				document.getElementById('c').value = sum;
 			}
 			function minus() {
-				var add1 = document.getElementById('a').value;
-				var add2 = document.getElementById('b').value;
+				var add1 = document.getElementById('d').value;
+				var add2 = document.getElementById('e').value;
 				var sum  =  parseInt(add1) - parseInt(add2);
-				document.getElementById('c').value = sum;
+				document.getElementById('f').value = sum;
 			}
+                        function multpication() {
+                                var add1 = document.getElementById('g').value;
+                                var add2 = document.getElementById('h').value;
+                                var sum  =  parseInt(add1) * parseInt(add2);
+                                document.getElementById('i').value = sum;
+                        }
+                        function division() {
+                                var add1 = document.getElementById('j').value;
+                                var add2 = document.getElementById('k').value;
+                                var sum  =  parseInt(add1) / parseInt(add2);
+                                document.getElementById('l').value = sum;
+                        }
+
 		</script>
 	</head>
 	<body>
 		<input id="a" type="text"/>
-		<span>-</span>
+		<span>+</span>
 		<input id="b" type="text"/>
-		<button onclick="return minus();">=</button>
+		<button onclick="return add();">=</button>
 		<input id="c"/>
+                <input id="d" type="text"/>
+                <span>--</span>
+                <input id="e" type="text"/>
+                <button onclick="return minus();">=</button>
+                <input id="f"/>
+                <input id="g" type="text"/>
+                <span>×</span>
+                <input id="h" type="text"/>
+                <button onclick="return multpication ();">=</button>
+                <input id="i"/>
+                <input id="j" type="text"/>
+                <span>÷</span>
+                <input id="k" type="text"/>
+                <button onclick="return division();">=</button>
+                <input id="l"/>
+
 	</body>
 </html>
