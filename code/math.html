@@ -27,30 +27,40 @@
                                 var sum  =  parseInt(add1) / parseInt(add2);
                                 document.getElementById('l').value = sum;
                         }
-
 		</script>
 	</head>
 	<body>
-		<input id="a" type="text"/>
-		<span>+</span>
-		<input id="b" type="text"/>
-		<button onclick="return add();">=</button>
-		<input id="c"/>
-                <input id="d" type="text"/>
-                <span>--</span>
-                <input id="e" type="text"/>
-                <button onclick="return minus();">=</button>
-                <input id="f"/>
-                <input id="g" type="text"/>
-                <span>×</span>
-                <input id="h" type="text"/>
-                <button onclick="return multpication ();">=</button>
-                <input id="i"/>
-                <input id="j" type="text"/>
-                <span>÷</span>
-                <input id="k" type="text"/>
-                <button onclick="return division();">=</button>
-                <input id="l"/>
+		<h1>+ - x ÷</h1>
+		<div>
+			<input id="a" type="text"/>
+			<span>+</span>
+			<input id="b" type="text"/>
+			<button onclick="return add();">=</button>
+			<input id="c"/>
+		</div>
 
+		<div>
+                	<input id="d" type="text"/>
+                	<span>-</span>
+                	<input id="e" type="text"/>
+                	<button onclick="return minus();">=</button>
+                	<input id="f"/>
+		</div>
+
+		<div>
+                	<input id="g" type="text"/>
+                	<span>×</span>
+                	<input id="h" type="text"/>
+                	<button onclick="return multpication ();">=</button>
+                	<input id="i"/>
+		</div>
+
+		<div>
+                	<input id="j" type="text"/>
+                	<span>÷</span>
+                	<input id="k" type="text"/>
+                	<button onclick="return division();">=</button>
+                	<input id="l"/>
+		</div>
 	</body>
 </html>
